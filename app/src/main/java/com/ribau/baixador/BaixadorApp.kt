@@ -7,6 +7,7 @@ import android.app.NotificationManager
 class BaixadorApp : Application() {
     override fun onCreate() {
         super.onCreate()
+        android.webkit.CookieManager.getInstance()
         getSystemService(NotificationManager::class.java).createNotificationChannel(
             NotificationChannel("downloads", "Downloads", NotificationManager.IMPORTANCE_LOW)
         )
