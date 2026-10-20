@@ -1,0 +1,16 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#176347</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#F7F8F6</item>
+    </style>
+    <style name="PopupTheme" parent="android:style/Theme.Material.Light.Dialog.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#176347</item>
+        <item name="android:windowMinWidthMajor">94%</item>
+        <item name="android:windowMinWidthMinor">94%</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+</resources>
